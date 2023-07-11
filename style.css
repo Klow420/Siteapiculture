@@ -1,0 +1,457 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 230, 0);
+    
+}
+.logo .img{
+    width: 264px;
+    height: 149px;
+    margin: 20px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color:rgb(255, 230, 0);
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: large;
+}
+body{
+    font-family: 'Ysabeau Infant', sans-serif; 
+    margin: 0;
+    padding:0;
+    background: white;
+    background-size: contain;
+}
+.proddemiel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.proddemiel .img {
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.title {
+    text-align: center;
+}
+.soustitre {
+    font-size: 10px;
+    margin-top: -10px;
+    text-align: center;
+}
+.histoire {
+    display: flex;
+    background-color: rgb(255, 230, 0);
+    border: solid 1px black;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+.hist {
+    object-fit: cover;
+    width: 95%;
+    margin: 10px;
+}
+.description {
+    text-align: center;
+    justify-content: space-around;
+}
+.trait {
+    border-bottom: 3px solid rgb(255, 230, 0);
+}
+.nosproduits {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    
+}
+.index {
+    display: none;
+}
+.titleproduct {
+    font-size: 225%;
+    text-align: center;
+}
+.produits {
+    text-align: center;
+    color: rgb(132, 100, 3);
+    font-size: 200%;
+}
+.abeille{
+    display: none;
+}
+.abeille22 {
+    display: none;
+}
+footer {
+    display: flex;
+    background-color: rgb(255, 230, 0);
+    flex-direction: column;
+    border: 1px solid black;
+}
+.contact {
+    font-size: 300%;
+    text-align: center;
+}
+.contact1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.réseaux {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.reseau {
+    display: none;
+}
+.numadresse {
+    text-align: center;
+}
+.lieu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lieu1 {
+    text-align: center;
+    flex-direction: column;
+}
+.mention {
+    text-align: center;
+    flex-direction: column;
+}
+.colonne {
+    display: none;
+}
+.colpart1 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ysabeau Infant', sans-serif; 
+    font-size: 200%;
+}
+.colpart2 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ysabeau Infant', sans-serif; 
+    font-size: 150%;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info p {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 300%;
+}
+.formulaire {
+    width: 600px;
+    border: solid 1px black;
+    background: rgb(255, 230, 0);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 5%;
+}
+
+#nom {
+    background: orange;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    width: 450px;
+    margin: 15px 15px 5px 15px;
+}
+
+#mail {
+    background: orange;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    width: 450px;
+    margin: 15px 15px 5px 15px;
+}
+
+#tel {
+    background: orange;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    width: 450px;
+    margin: 15px 15px 5px 15px;
+}
+
+
+textarea {
+
+    min-width: 450px;
+    max-width: 450px;
+    min-height: 150px;
+    max-height: 600px;
+    
+    background: orange;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    margin: 15px 15px 15px 15px;
+}
+
+button {
+
+    font-size: 1em;
+    background: orange;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    margin: 15px 15px 15px 15px;
+
+}
+label {
+    display: none;
+}
+.findepage {
+    display: none;
+}
+.adresse {
+    display: none;
+}
+
+::placeholder { 
+    color: black;
+    opacity: 1; 
+  }
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+    
+    .title {
+        font-size: 200%;
+    }
+    .soustitre {
+        font-size: 100%;
+    }
+    body {
+        background: white;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .corps1 {
+    background: url(backgroundabeille.jpg);
+    background-size: contain;
+    }
+    .title {
+        font-size: 200%;
+    }
+    .soustitre {
+        font-size: 100%;
+    }
+    .description {
+        font-size: 150%;
+    }
+    .produit1 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+
+    }
+    .produit1 .indice {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        font-size: 90%;
+    }
+    .produit1 .index {
+        display: block;
+        color: black;
+        
+    }
+    .produit1 img {
+        width: 20%;
+        height: 60%;
+        
+    }
+    .produit2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    .abeille {
+        display: block;
+        height: 300px;
+        width: 2000px;
+        
+    }
+    .produit2 .indice2 {
+        display: flex;
+        flex-direction: column;
+        width:65%;
+        font-size: 90%;
+    }
+    .produit2 .index {
+        display: block;
+        color: black;
+        
+    }
+    .produit2 img {
+        width: 20%;
+        height: 60%;
+    }
+    .produit3 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+
+    }
+    .abeille22 {
+        display: block;
+        height: 300px;
+        width: 2000px;
+    }
+    .produit3 .indice3 {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        font-size: 90%;
+    }
+    .produit3 .index {
+        display: block;
+        color: black;
+        
+    }
+    .produit3 img {
+        width: 20%;
+        height: 60%;
+        
+    }
+    .produit4 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+
+    }
+    .produit4 .indice4 {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        font-size: 90%;
+    }
+    .produit4 .index {
+        display: block;
+        color: black;
+        
+    }
+    .produit4 img {
+        width: 20%;
+        height: 60%;
+    }
+    .colonne {
+        display: flex;
+        flex-direction: row;
+        width: 867px;
+        height: 450px;
+        border-radius: 89px;
+        border: 1px solid #000;
+        background: #FFE500;
+        margin: 5%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .colpart1 {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Ysabeau Infant', sans-serif; 
+        font-size: 200%;
+    }
+    .colpart2 {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Ysabeau Infant', sans-serif; 
+        font-size: 150%;
+    }
+    .colpart2 img{
+        align-items: center;
+        justify-content: center;
+    }
+    .findepage {
+        display: block;
+        background: url(backgroundabeille.jpg);
+        background-size: contain;
+    }
+    .info p {
+        font-family: 'Ysabeau Infant', sans-serif;
+        font-size: 300%;
+        text-align: center;
+    }
+    footer {
+        display: flex;
+        background-color: rgb(255, 230, 0);
+        flex-direction: row;
+        border: 1px solid black;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .reseau {
+        display: block;
+    }
+    .réseaux {
+        display: flex;
+        flex-direction: column;
+        order: 2;
+    }
+    .reseausociaux {
+        display: flex;
+        flex-direction: row;
+    }
+    .numadresse {
+        display: none;
+    }
+    .lieu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .endroit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .adresse {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Ysabeau Infant', sans-serif; 
+        font-size: 150%;
+        
+    }
+    .mention{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+        font-family: 'Ysabeau Infant', sans-serif; 
+        font-size: 120%;
+    }
+}
