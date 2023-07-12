@@ -16,6 +16,10 @@
     flex-direction: row;
     justify-content: space-around;
     background-color: black;
+    height: 55px;
+}
+.menu a {
+    text-decoration: none;
     color:rgb(255, 230, 0);
     font-family: 'Ysabeau Infant', sans-serif;
     font-size: large;
@@ -129,8 +133,8 @@ footer {
     justify-content: space-between;
 }
 .lieu1 {
-    text-align: center;
     flex-direction: column;
+    margin-left: 10%;
 }
 .mention {
     text-align: center;
@@ -448,7 +452,9 @@ label {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
+        border: #000 1px solid;
+        width: 45%;
     }
     .endroit {
         display: flex;
@@ -463,6 +469,7 @@ label {
         justify-content: center;
         font-family: 'Ysabeau Infant', sans-serif; 
         font-size: 150%;
+        border: #000 1px solid;
         
     }
     .mention{
@@ -473,5 +480,10 @@ label {
         margin-left: 10%;
         font-family: 'Ysabeau Infant', sans-serif; 
         font-size: 120%;
+    }
+    .lieu1 {
+        text-align: center;
+        flex-direction: column;
+        border: #000 1px solid;
     }
 }
