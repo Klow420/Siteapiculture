@@ -453,7 +453,6 @@ label {
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
-        border: #000 1px solid;
         width: 45%;
     }
     .endroit {
@@ -469,7 +468,7 @@ label {
         justify-content: center;
         font-family: 'Ysabeau Infant', sans-serif; 
         font-size: 150%;
-        border: #000 1px solid;
+        
         
     }
     .mention{
@@ -484,6 +483,7 @@ label {
     .lieu1 {
         text-align: center;
         flex-direction: column;
-        border: #000 1px solid;
+        margin-bottom: 20%;
+        
     }
 }
