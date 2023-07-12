@@ -468,8 +468,6 @@ label {
         justify-content: center;
         font-family: 'Ysabeau Infant', sans-serif; 
         font-size: 150%;
-        
-        
     }
     .mention{
         display: flex;
@@ -484,6 +482,5 @@ label {
         text-align: center;
         flex-direction: column;
         margin-bottom: 20%;
-        
     }
 }
