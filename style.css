@@ -256,8 +256,21 @@ label {
     .soustitre {
         font-size: 100%;
     }
+    .histoire {
+        align-items: center;
+        margin-left: 15%;
+        width: 70%;
+        height: 70%;
+    }
+    .hist {
+        object-fit: cover;
+        margin: 25px;
+    }
     .description {
         font-size: 150%;
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
     }
     .produit1 {
         display: flex;
@@ -416,10 +429,17 @@ label {
         display: flex;
         flex-direction: column;
         order: 2;
+        margin-bottom: 1%;
     }
     .reseausociaux {
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .reseausociaux img{
+        height: 30%;
+        width: 30%;
     }
     .numadresse {
         display: none;
